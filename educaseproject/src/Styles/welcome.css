@@ -1,0 +1,64 @@
+/* Center mobile screen on desktop */
+.page{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Mobile frame */
+  .mobile-container{
+    width:375px;
+    height:100vh;
+    background:white;
+    display:flex;
+    align-items:flex-end;
+    padding:30px;
+    box-sizing:border-box;
+  }
+  
+  /* Bottom content */
+  .content{
+    width:100%;
+  }
+  
+  .content h1{
+    font-size:24px;
+    margin-bottom:10px;
+    color:#222;
+  }
+  
+  .content p{
+    color:#777;
+    font-size:14px;
+    margin-bottom:25px;
+  }
+  
+  /* Create account button */
+  .create-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+    background:linear-gradient(90deg,#6a11cb,#8e2de2);
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    margin-bottom:12px;
+  }
+  
+  /* Login button */
+  .login-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+    background:#d9c8f3;
+    color:#333;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+  }

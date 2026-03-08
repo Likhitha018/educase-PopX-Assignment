@@ -1,0 +1,67 @@
+.page2{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    background:#f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mobile{
+    width:375px;
+    background:white;
+    padding:30px;
+  }
+  
+  .titlelogin{
+    font-size:24px;
+    font-weight:600;
+    color:#222;
+    margin-bottom:8px;
+  }
+  
+  .subtitle{
+    color:#777;
+    font-size:14px;
+    margin-bottom:25px;
+  }
+  
+  /* input container */
+  .input-field{
+    position:relative;
+    margin-bottom:20px;
+  }
+  
+  /* label on border */
+  .input-field label{
+    position:absolute;
+    top:-8px;
+    left:12px;
+    background:white;
+    padding:0 4px;
+    font-size:12px;
+    color:#7a4dff;
+  }
+  
+  /* input box */
+  .input-field input{
+    width:90%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:14px;
+    outline:none;
+    background: white;
+  }
+  
+  /* login button */
+  .login-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+    background:#cfcfcf;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    margin-top:10px;
+  }

@@ -1,0 +1,71 @@
+
+  
+  .account-container{
+  height:100vh;
+  background: #f1f2f3;
+  box-shadow:0 0 8px rgba(0,0,0,0.05);
+  }
+  
+  .title{
+    margin-bottom:20px;
+    font-weight:200;
+  }
+  
+  .account-card{
+    width:350px;
+    background: #f1f2f3;;
+    padding:20px;
+    border-radius:6px;
+    box-shadow:0 0 8px rgba(0,0,0,0.05);
+  }
+  
+  .profile-section{
+    display:flex;
+    align-items:center;
+    gap:15px;
+  }
+  
+  .image-box{
+    position:relative;
+  }
+  
+  .image-box img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit:cover;
+  }
+  
+  .camera-icon{
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:#7b3ff2;
+    color:white;
+    font-size:12px;
+    border-radius:50%;
+    padding:4px;
+  }
+  
+  .user-info h4{
+    margin:0;
+    font-size:16px;
+  }
+  
+  .user-info p{
+    margin:2px 0 0 0;
+    font-size:13px;
+    color:#666;
+  }
+  
+  .description{
+    margin-top:15px;
+    font-size:13px;
+    line-height:1.5;
+    color:#444;
+  }
+  
+  .divider{
+    margin-top:20px;
+    border-bottom:1px dashed #ccc;
+  }
